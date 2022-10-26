@@ -1,0 +1,30 @@
+{
+  "name": "salt-jsfs-promising-instructors",
+  "version": "1.0.0",
+  "description": "A lab for practicing promises",
+  "main": "index.js",
+  "scripts": {
+    "callbacks": "node index-cb.js",
+    "promises": "node index-promise.js",
+    "promisify": "node index-promisify.js",
+    "async": "node index-async.js",
+    "lint": "eslint .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appliedtechnology/salt-jsfs-promising-instructors.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appliedtechnology/salt-jsfs-promising-instructors/issues"
+  },
+  "homepage": "https://github.com/appliedtechnology/salt-jsfs-promising-instructors#readme",
+  "devDependencies": {
+    "eslint-config-salt": "^1.1.0",
+    "husky": "^8.0.1",
+    "mocha": "^8.1.2"
+  }
+}
